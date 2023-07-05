@@ -1,3 +1,3 @@
-celsius_temp = 10
+celsius_temp = float(input("PLease provide celsius_temp: "))
 fahrenheit_temp = celsius_temp*1.8+32
-print("The Fahrenheit equivalent of 10 celcius is ", fahrenheit_temp)
+print("The Fahrenheit equivalent of celsius_temp:",  fahrenheit_temp)
