@@ -4,7 +4,7 @@ def check_password(password):
         return "The password must be at least 8 characters long."
     if not re.search("[A-Z]", password):
         return "The password should contain at least one uppercase letter."
-    if not re.serarch("[a-z]", password):
+    if not re.search("[a-z]", password):
         return "The password should contain at least one lowercase letter."
     if not re.search("[0-9]", password):
         return "The password should contain at least one digit."
